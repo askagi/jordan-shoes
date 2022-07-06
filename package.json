@@ -37,5 +37,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<h1 align=\"center\">Jordan Shoes</h1> <p align=\"center\">O projeto é um desafio proposto pela comunidade <a href=\"https://discord.gg/wNCWTVuxyz\">@Codelândia</a> </p> <P align='center'> <a href=\"https://codelandia-blog.herokuapp.com/\" target='_blank'>Demo</a> </p>",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askagi/jordan-shoes.git"
+  },
+  "author": "José Costa (Askagi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askagi/jordan-shoes/issues"
+  },
+  "homepage": "https://github.com/askagi/jordan-shoes#readme"
 }
