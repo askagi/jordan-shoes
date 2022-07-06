@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+<h1 align="center">Jordan Shoes</h1>
+<p align="center">O projeto é um desafio proposto pela comunidade <a href="https://discord.gg/wNCWTVuxyz">@Codelândia</a>
+</p>
+<P align='center'>
+<a href="https://codelandia-blog.herokuapp.com/" target='_blank'>Demo</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/askagi/jordan-shoes?color=%2304D361">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/askagi/jordan-shoes">
+  <a href="https://github.com/askagi/jordan-shoes/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/askagi/jordan-shoes">
+  </a>
 
-In the project directory, you can run:
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/askagi/jordan-shoes">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/askagi/jordan-shoes?style=social">
+  </a>
+</p>
 
-### `npm start`
+Tabela de conteúdos
+=================
+<!--ts-->
+* [Sobre o projeto](#-sobre-o-projeto)
+* [Layout](#-layout)
+  * [Mobile](#-web-responsivo)
+  * [Web](#web)
+* [Como executar o projeto](#-como-executar-o-projeto)
+* [Tecnologias](#-tecnologias)
+* [Autor](#-autor)
+* [Licença](#user-content--licença)
+<!--te-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Sobre o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📘️ Jordan Shoes - é uma página web de Blog desenvolvida com a finalidade de aplicar estudos praticar e ganhar experiência na área de frontend utilizando o ReactJs.
 
-### `npm test`
+**[Click aqui para acessar a aplicação](https://codelandia-blog.herokuapp.com/)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎨 Layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O layout da aplicação está disponível no Figma:
+<p>
+    <a href="https://discord.gg/wNCWTVuxyz">
+    <img alt="Feito pela Codelândia" src="https://img.shields.io/badge/feito%20por-Codelândia-%237519C1">
+  </a>
+<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=39340%3A690">
+  <img alt="Made by codelândia" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Web
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="">
+  <img alt="jordan-shoes" title="#jordan-shoes" src="./src/assets/screenshots/web.png" width="">
+  <img alt="jordan-shoes" title="#jordan-shoes" src="./src/assets/screenshots/web2.png" width="">
+</p>
 
-### `npm run eject`
+### Web - Responsivo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center" style="display: flex; align-items: flex-start; gap: 30px">
+ <img alt="jordan-shoes" title="#jordan-shoes" src="./src/assets/screenshots/mobile.png" width="" height="556px">
+ <img alt="jordan-shoes" title="#jordan-shoes" src="./src/assets/screenshots/mobile2.png" width="">
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Como executar o projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
 
-## Learn More
+# Clone este repositório
+$ git clone git@github.com:askagi/jordan-shoes.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd jordan-shoes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências
+$ npm install
 
-### Code Splitting
+ou
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+$ yarn install
 
-### Analyzing the Bundle Size
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ou
 
-### Making a Progressive Web App
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🛠 Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `npm run build` fails to minify
+* **[React](https://reactjs.org/)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **[Styled-components](https://styled-components.com/)**
+
+* **[Scrollreveal](https://scrollrevealjs.org/)**
+
+* **[React-typed](https://github.com/ssbeefeater/react-typed)**
+
+---
+
+## 🦸 Autor
+
+<a href="https://github.com/askagi">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/58970300?v=4" width="100px;" alt=""/>
+ <br />🎧
+ <sub><b>José Costa</b></sub></a> <a href="https://www.linkedin.com/in/josecostasantosjr/" title="Linkedin"></a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-José_Costa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/josecostasantosjr/)](https://www.linkedin.com/in/josecostasantosjr/)
+[![Gmail Badge](https://img.shields.io/badge/-josecostasantos.jr@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:josecostasantos.jr@gmail.com)](mailto:josecostasantos.js@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por José Costa 👋🏽 [Entre em contato!](https://www.linkedin.com/in/josecostasantosjr/)
+
+Figma feito por **[Iuri Silva](https://iuricode.com/)** / **[Codelândia](https://iuricode.com/)**
+<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=39340%3A690">
+  <img alt="Made by codelândia" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
