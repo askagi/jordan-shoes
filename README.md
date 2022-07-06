@@ -1,9 +1,9 @@
 <h1 align="center">Jordan Shoes</h1>
 <p align="center">O projeto é um desafio proposto pela comunidade <a href="https://discord.gg/wNCWTVuxyz">@Codelândia</a>
 </p>
-<P align='center'>
+<!-- <P align='center'>
 <a href="https://codelandia-blog.herokuapp.com/" target='_blank'>Demo</a>
-</p>
+</p> -->
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/askagi/jordan-shoes?color=%2304D361">
@@ -36,7 +36,7 @@ Tabela de conteúdos
 
 📘️ Jordan Shoes - é uma página web de Blog desenvolvida com a finalidade de aplicar estudos praticar e ganhar experiência na área de frontend utilizando o ReactJs.
 
-**[Click aqui para acessar a aplicação](https://codelandia-blog.herokuapp.com/)**
+<!-- **[Click aqui para acessar a aplicação](https://codelandia-blog.herokuapp.com/)** -->
 
 ---
 
